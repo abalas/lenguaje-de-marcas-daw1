@@ -1,0 +1,50 @@
+header, footer, .izquierda, .derecha, .centro{
+	box-shadow: 2px 2px 5px black;
+}
+
+main {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.contenedor {
+  display: flex;
+  gap: 10px;
+}
+
+header{
+	background: #aaa;
+	margin-bottom: 10px;
+	padding: 5px;
+	font-size: 4em;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	-webkit-text-stroke: 2px black;
+}
+
+h2{
+	font-size: 2em;
+	-webkit-text-stroke: 1px white;
+}
+
+footer{
+	background: #aaa;
+	font-size: .9em;
+	padding: 5px;
+	color: white;
+	margin-top: 10px;
+}
+
+.centro{
+	flex-basis: 50%;
+   padding: 10px;
+	background-color:#bbb;
+}
+
+.izquierda, .derecha{
+	flex-basis: 25%;
+   padding: 10px;
+	background-color:#ccc;
+}
+

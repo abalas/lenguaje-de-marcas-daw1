@@ -1,0 +1,48 @@
+
+
+body {
+  background: lightcyan;
+  font-family: sans-serif;
+}
+
+main {
+	/* activamos flex  y ajustamos las propiedades del contenedor: 
+	la forma de justificación y el espaciado entre tarjetas */ 
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+  /* fin de propiedades flex */
+  width: 90%;
+  margin: 0 auto;
+  padding: 80px;
+
+}
+
+.tarjeta {
+  /* Le damos a cada tarjeta un tamaño del 30% 
+  El 10% sobrante quedará a cada lado del contenedor que está centrado 
+  horizontalmente en el navegador*/	
+  flex-basis: 30%;
+  /* fin de propiedades flex */
+  height: 400px;
+  /* esta propiedad no la hemos visto en clase. Evita que las tarjetas tengan
+  nunca un ancho inferior al que aparece como valor. Prueba a cambiar el valor y
+  observa como se comporta */
+  min-width: 300px;
+  padding: 2em;
+  background-color: whitesmoke;
+  box-shadow: 5px 5px 15px black;
+  border-radius: 3%;
+  border: 1px solid grey;
+}
+
+p {
+  padding: 0.5em 0;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #1E8449;
+}
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- saved from url=(0123)https://aulavirtual33.educa.madrid.org/ies.goya.madrid/pluginfile.php/95517/mod_resource/content/1/8%20gutters.html?embed=1 -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   	
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<title>Bootstrap - Curso de Interfaces Web - IES Francisco de Goya</title>
+    	<link href="./bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  	</head>
+  	<body>
+   	<h1>Gutters explicados :-)</h1>
+   	
+   	<div class="container p-4 border mt-3 border-success">
+  			<div class="row g-5">
+    			<div class="col">
+     				<div class="p-3 border border-info bg-light">Columna 1</div>
+    			</div>
+    			<div class="col">
+      			<div class="p-3 border border-info bg-light">Los gutters son el espacio existente entre columnas de una fila. En este ejemplo usamos g-5 pero usar gx-5 causaría el mismo efecto porque las columnas ocupan sólo una línea</div>
+    			</div>
+    			<div class="col">
+      			<div class="p-3 border border-info bg-light">Columna 3</div>
+    			</div>
+  			</div>  			
+		</div>
+		
+		<div class="container p-4 border mt-3 border-success">
+  			<div class="row">
+    			<div class="col">
+     				<div class="p-3 border border-info bg-light">Columna 1</div>
+    			</div>
+    			<div class="col">
+      			<div class="p-3 border border-info bg-light">Si eliminamos el gutter, bootstrap aún dejara un espacio entre columnas en el eje horizontal</div>
+    			</div>
+    			<div class="col">
+      			<div class="p-3 border border-info bg-light">Columna 3</div>
+    			</div>
+  			</div>  			
+		</div>
+		
+	<div class="container p-4 border mt-3 border-success">
+  			<div class="row g-0">
+    			<div class="col">
+     				<div class="p-3 border border-info bg-light">Columna 1</div>
+    			</div>
+    			<div class="col">
+      			<div class="p-3 border border-info bg-light">Para eliminar ese espaciado por defecto usamos g-0</div>
+    			</div>
+    			<div class="col">
+      			<div class="p-3 border border-info bg-light">Columna 3</div>
+    			</div>
+  			</div>  			
+		</div>
+		
+		<div class="container p-4 border mt-3 border-success">
+  			<div class="row gx-3">
+    			<div class="col-6">
+     				<div class="p-3 border border-info bg-light">Columna 1</div>
+    			</div>
+    			<div class="col-6">
+      			<div class="p-3 border border-info bg-light">Columna 2</div>
+    			</div>
+    			<div class="col">
+      			<div class="p-3 border border-info bg-light">Si hacemos que las columnas ocupen mas de una línea ya no da igual usar g que gx. En este ejemplo usamos gx-3 y por tanto la fila de arriba está pegada a la de abajo</div>
+    			</div>
+  			</div>  			
+		</div>
+		
+	<div class="container p-4 border mt-3 border-success">
+  			<div class="row g-3">
+    			<div class="col-6">
+     				<div class="p-3 border border-info bg-light">Columna 1</div>
+    			</div>
+    			<div class="col-6">
+      			<div class="p-3 border border-info bg-light">Columna 2</div>
+    			</div>
+    			<div class="col">
+      			<div class="p-3 border border-info bg-light">Pero si ponemos g-3 ya hay espacio entre la fila de arriba y la de abajo porque para bootstrap siguen siendo columnas de la misma fila, aún ubicándose unas encimas de otras</div>
+    			</div>
+  			</div>  			
+		</div>
+		
+		<div class="container p-4 border mt-3 border-success">
+  			<div class="row gy-5">
+    			<div class="col-6">
+     				<div class="p-3 border border-info bg-light">Columna 1</div>
+    			</div>
+    			<div class="col-6">
+      			<div class="p-3 border border-info bg-light">Columna 2</div>
+    			</div>
+    			<div class="col">
+      			<div class="p-3 border border-info bg-light">gy sirve para espaciar en vertical columnas del mismo row desplazadas a filas diferentes. En este ejemplo usamos gy-5. Bootstrap aún deja el espaciado horizontal por defecto</div>
+    			</div>
+  			</div>  			
+		</div>
+		
+		<div class="container p-4 border border-success mt-3 mb-5">
+  			<div class="row gy-5 gx-0">
+    			<div class="col-6">
+     				<div class="p-3 border border-info bg-light">Columna 1</div>
+    			</div>
+    			<div class="col-6">
+      			<div class="p-3 border border-info bg-light">Columna 2</div>
+    			</div>
+    			<div class="col">
+      			<div class="p-3 border border-info bg-light">Para eliminar ese espacio horizontal y mantener el vertical combinamos gy-5 con gx-0</div>
+    			</div>
+  			</div>  			
+		</div>
+   	
+    	<script src="./popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+		<script src="./bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+	
+</body></html>
