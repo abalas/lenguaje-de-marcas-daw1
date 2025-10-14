@@ -1,0 +1,21 @@
+ #contenedor {
+    background-color: blue;
+    height: 550px;
+    width: 550px;
+    
+    padding: 5px;
+    margin: auto;
+    border: 2px solid black;
+
+}
+#cabecera {
+    text-align: center;
+    background-color: orange;
+    margin: 0 0 5px 0px;
+    border: 2px solid black;
+
+}
+
+body { 
+
+}
